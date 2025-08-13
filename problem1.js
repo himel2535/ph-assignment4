@@ -1,6 +1,6 @@
 const fare = 200;
 function totalFine(fare) {
-    if(fare<=0 || typeof fare!=="number"){
+    if(typeof fare!=="number" || fare<=0){
         return "Invalid"  ;  
     }
     let fine=fare+fare*(20/100)+30;

@@ -1,4 +1,4 @@
-let str ="  h e llo wor   ld"  ;
+let str = "  h e llo wor   ld";
 function onlyCharacter(str) {
   if (typeof str !== "string") {
     return "Invalid";
